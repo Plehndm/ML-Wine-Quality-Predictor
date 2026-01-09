@@ -30,7 +30,9 @@
 Make sure you have **Python >= 3.6** and the following Python libraries installed:
 
 bash
+
 pip install -r requirements.txt
+
 Common packages likely used:
 
 numpy
@@ -45,8 +47,11 @@ jupyter (optional for notebooks)
 
 ## 🧰 Clone the Repository
 bash
+
 Copy code
+
 git clone https://github.com/Plehndm/ML-Wine-Quality-Predictor.git
+
 cd ML-Wine-Quality-Predictor
 
 ## 📊 Usage
@@ -54,16 +59,22 @@ cd ML-Wine-Quality-Predictor
 You can use Jupyter Notebook (if included) to explore the dataset and train ML models interactively:
 
 bash
+
 Copy code
+
 jupyter notebook
+
 Open the relevant notebook (e.g., wine_quality_analysis.ipynb) to run data preprocessing, model training, and evaluation cells.
 
 ### 🏃 Run Training Script
 If there’s a Python script (e.g., train.py or model.py):
 
 bash
+
 Copy code
+
 python train.py
+
 This script should load the data, train the model, and print evaluation results such as accuracy or R² score.
 
 ## 🧠 Dataset
